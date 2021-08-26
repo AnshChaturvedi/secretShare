@@ -5,4 +5,6 @@ Have a look at the website I created here!
 https://polar-oasis-13219.herokuapp.com/
 
 If yuo'd like to take a look at the source code or mess around with it on your local machine, here's how to clone it:  
-`$ git clone https://github.com/AnshChaturvedi/security`
+`$ git clone https://github.com/AnshChaturvedi/security`  
+`$ cd security`  
+`$ node app.js`
