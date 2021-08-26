@@ -72,7 +72,7 @@ app.get('/auth/facebook',
     passport.authenticate('facebook'));
 
 app.get('/auth/facebook/secrets', 
-  passport.authenticate('facebook', { failureRedirect: '/login' }),
+  passport.authenticate('facebook', { failureRedirect: '/login', failureFlash: true }),
   function(req, res) {
     // Successful authentication, redirect home.
     res.redirect('/secrets');
